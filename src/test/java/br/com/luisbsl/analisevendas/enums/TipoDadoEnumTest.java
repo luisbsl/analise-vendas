@@ -12,7 +12,14 @@ import br.com.luisbsl.analisevendas.service.ExtratorDadosVendedor;
 import br.com.luisbsl.analisevendas.service.IExtratorDados;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
-public class TipoDadoEnumTest {
+/**
+ * Casos de testes para classe TipoDadoEnum
+ * 
+ * @see {@link TipoDadoEnum}
+ * @author luislima
+ *
+ */
+class TipoDadoEnumTest {
 	
 	@Test
 	void getIdentificadorTest_deveRetornarIdentificador_Vendedor() {

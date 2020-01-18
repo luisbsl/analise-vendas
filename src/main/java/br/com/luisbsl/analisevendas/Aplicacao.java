@@ -12,7 +12,7 @@ import br.com.luisbsl.analisevendas.service.LeitorEntradaInformacaoVendas;
  * Logo que novos arquivos forem inseridos no diretório será lido cada arquivo e extraído as informações de vendas
  * Após extração será gerado um arquivo de reltório no diretório HOMEPATH/data/out
  * 
- * @see {@link LeitorEntradaInformacaoVendas#iniciar()}}
+ * @see LeitorEntradaInformacaoVendas#iniciar()
  * @author luislima
  *
  */

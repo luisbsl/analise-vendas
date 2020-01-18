@@ -5,7 +5,7 @@ import br.com.luisbsl.analisevendas.utils.ExtratorDadosUtils;
 /**
  * Constantes utilizadas no utilitário 
  * 
- * @see {@link ExtratorDadosUtils}
+ * @see ExtratorDadosUtils
  * @author luislima
  *
  */

@@ -11,6 +11,13 @@ import br.com.luisbsl.analisevendas.exception.DadoInvalidoException;
 import br.com.luisbsl.analisevendas.model.Cliente;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
+/**
+ * Casos de testes para classe ClienteBuilder
+ * 
+ * @see {@link ClienteBuilder}
+ * @author luislima
+ *
+ */
 class ClienteBuilderTest {
 	
 	@Test

@@ -14,6 +14,13 @@ import br.com.luisbsl.analisevendas.model.Venda;
 import br.com.luisbsl.analisevendas.model.Vendedor;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
+/**
+ * Casos de testes para classe ProcessadorVendas
+ * 
+ * @see {@link ProcessadorVendas}
+ * @author luislima
+ *
+ */
 class ProcessadorVendasTest {
 
 	ProcessadorVendas processadorVendas = new ProcessadorVendas(DadosMocados.DADOS_VENDA);

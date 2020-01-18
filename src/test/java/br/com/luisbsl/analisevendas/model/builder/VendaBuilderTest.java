@@ -13,6 +13,13 @@ import br.com.luisbsl.analisevendas.exception.DadoInvalidoException;
 import br.com.luisbsl.analisevendas.model.Venda;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
+/**
+ * Casos de testes para classe VendaBuilder
+ * 
+ * @see {@link VendaBuilder}
+ * @author luislima
+ *
+ */
 class VendaBuilderTest {
 
 	@Test

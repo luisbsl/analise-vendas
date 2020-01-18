@@ -17,7 +17,14 @@ import br.com.luisbsl.analisevendas.model.Cliente;
 import br.com.luisbsl.analisevendas.model.Linha;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
-public class ExtratorDadosClienteTest {
+/**
+ * Casos de testes para classe ExtratorDadosCliente
+ * 
+ * @see {@link ExtratorDadosCliente}
+ * @author luislima
+ *
+ */
+class ExtratorDadosClienteTest {
 	
 	private ExtratorDadosCliente extrator = (ExtratorDadosCliente) TipoDadoEnum.CLIENTE.obterExtratorDado();
 	private Linha linhaClienteValida = new Linha(DadosMocados.LINHA_TIPO_CLIENTE, 20);

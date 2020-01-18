@@ -11,6 +11,13 @@ import br.com.luisbsl.analisevendas.model.Dado;
 import br.com.luisbsl.analisevendas.model.Linha;
 import br.com.luisbsl.analisevendas.utils.ExtratorDadosUtils;
 
+/**
+ * Serviço principal para processo de extração dos Dados da Linha do arquivo
+ * O Tipo de dado específico para extração é passado no construtor  
+ * 
+ * @author luislima
+ *
+ */
 public abstract class ExtratorDados implements IExtratorDados {
 	
 	private static final Logger LOGGER = Logger.getLogger(ExtratorDados.class.getName());

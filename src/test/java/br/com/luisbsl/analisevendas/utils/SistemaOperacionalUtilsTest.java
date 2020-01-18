@@ -1,7 +1,6 @@
 package br.com.luisbsl.analisevendas.utils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -11,7 +10,14 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-public class SistemaOperacionalUtilsTest {
+/**
+ * Casos de testes para classe SistemaOperacionalUtils
+ * 
+ * @see {@link SistemaOperacionalUtils}
+ * @author luislima
+ *
+ */
+class SistemaOperacionalUtilsTest {
 	
 	@Test
 	void getDiretorioArvoreTest() {
@@ -22,12 +28,11 @@ public class SistemaOperacionalUtilsTest {
 	}
 	
 	@Test
-	void getDiretorioArvoreSeparadorTest() {
+	void getDiretorioArvoreSeparadorTest_Unix() {
 		String separador = SistemaOperacionalUtils.getDiretorioArvoreDelimitador();
 		
 		assertNotNull(separador);
 		assertEquals("/", separador);
-		assertNotEquals("\\", separador);
 	}
 	
 	@Test

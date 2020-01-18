@@ -2,13 +2,27 @@
 
 Sistema para processamento de arquivos de vendas, extração das informações e geração de relatórios.
 
-**PS: Artefatos encontram-se na pasta /doc **
-
 ### Stack
 * Java 8
 * Maven
 * Junit 5
 * Guava
+* JaCoCo
+* Sonar
+
+### Artefatos
+
+* Executável: 
+* Diagramas: /docs/diagramas
+* Relatórios: /docs/relatórios
+* Javadoc: /docs/javadoc/index.html
+
+
+### Binário executável 
+
+```console
+java -jar bin/analise-vendas.jar
+```
 
 ### Build
 
@@ -27,6 +41,8 @@ java -jar target/analise-vendas-1.0.0-shaded.jar
 ## Javadoc
 
 Acessar arquivo /docs/javadoc/index.html
+
+<div style="text-align:center"><img src="https://file.globalupload.io/tId21xsEL8.png" width="1024" /></div>
 
 ### Análise de Código - Sonarqube
 

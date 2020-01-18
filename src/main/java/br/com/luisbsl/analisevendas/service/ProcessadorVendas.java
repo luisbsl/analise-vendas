@@ -56,9 +56,8 @@ public class ProcessadorVendas implements IProcessarVendas {
 	
 	/**
 	 * Filtra Lista de Dados da Venda pelo Tipo de Dado Venda
-	 * Converte para Stream<Venda>
 	 * 
-	 * @return Stream<Venda> retorna stream convertido
+	 * @return retorna stream convertido
 	 */
 	public Stream<Venda> filtrarDadosTipoVenda() {
 		return dadosVenda

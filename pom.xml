@@ -92,12 +92,12 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>${jacoco.plugin.version}</version>
 				<configuration>
-							<excludes>
-								<exclude>br/com/luisbsl/analisevendas/Aplicacao.class</exclude>
-								<exclude>br/com/luisbsl/analisevendas/service/EscritorSaidaInformacaoVendas.class</exclude>
-								<exclude>br/com/luisbsl/analisevendas/service/LeitorEntradaInformacaoVendas.class</exclude>
-							</excludes>
-						</configuration>
+					<excludes>
+						<exclude>br/com/luisbsl/analisevendas/Aplicacao.class</exclude>
+						<exclude>br/com/luisbsl/analisevendas/service/EscritorSaidaInformacaoVendas.class</exclude>
+						<exclude>br/com/luisbsl/analisevendas/service/LeitorEntradaInformacaoVendas.class</exclude>
+					</excludes>
+				</configuration>
 				<executions>
 					<execution>
 						<id>default-prepare-agent</id>

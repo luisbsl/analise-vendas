@@ -11,6 +11,13 @@ import br.com.luisbsl.analisevendas.exception.DadoInvalidoException;
 import br.com.luisbsl.analisevendas.model.Item;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
+/**
+ * Casos de testes para classe ItemBuilder
+ * 
+ * @see {@link ItemBuilder}
+ * @author luislima
+ *
+ */
 class ItemBuilderTest {
 
 	@Test

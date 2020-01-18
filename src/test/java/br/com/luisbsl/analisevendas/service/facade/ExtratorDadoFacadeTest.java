@@ -18,6 +18,13 @@ import br.com.luisbsl.analisevendas.model.Venda;
 import br.com.luisbsl.analisevendas.model.Vendedor;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
+/**
+ * Casos de testes para classe ExtratorDadoFacade
+ * 
+ * @see {@link ExtratorDadoFacade}
+ * @author luislima
+ *
+ */
 class ExtratorDadoFacadeTest {
 	
 

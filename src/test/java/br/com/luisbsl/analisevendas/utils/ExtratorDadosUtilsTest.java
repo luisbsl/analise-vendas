@@ -18,7 +18,14 @@ import br.com.luisbsl.analisevendas.model.builder.VendaBuilder;
 import br.com.luisbsl.analisevendas.model.builder.VendedorBuilder;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
-public class ExtratorDadosUtilsTest {
+/**
+ * Casos de testes para classe ExtratorDadosUtils
+ * 
+ * @see {@link ExtratorDadosUtils}
+ * @author luislima
+ *
+ */
+class ExtratorDadosUtilsTest {
 	
 	@Test
 	void extrairTipoDadoTest_deveRetornarIdentificadorTipoVendedor() {

@@ -19,8 +19,9 @@ public final class SistemaOperacionalUtils {
 	}
 
 	/**
+	 * Retorna árvore de diretórios com seus delimitadores
 	 * 
-	 * @param diretorios
+	 * @param diretorios lista com os nomes das pastas que deseja criar a árvore 
 	 * @return retorna árvore de diretório a partir da HOME do usuário
 	 */
 	public static final String getDiretorioArvore(List<String> diretorios) {
@@ -37,7 +38,7 @@ public final class SistemaOperacionalUtils {
 	 * @return retorna o delimitador que separa a árvore de diretório
 	 */
 	public static final String getDiretorioArvoreDelimitador() {
-		if (System.getProperty("os.name").equalsIgnoreCase("Windows")) {
+		if (System.getProperty("os.name").contains("Windows")) {
 			return "\\";
 		}
 		return "/";
@@ -53,6 +54,10 @@ public final class SistemaOperacionalUtils {
 		if(Boolean.FALSE.equals(new File(diretorio).exists())) {
 			java.nio.file.Files.createDirectory(Paths.get(diretorio));
 		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(System.getProperty("os.name"));
 	}
 
 }

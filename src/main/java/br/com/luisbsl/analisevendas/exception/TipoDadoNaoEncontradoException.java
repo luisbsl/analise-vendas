@@ -6,8 +6,8 @@ import br.com.luisbsl.analisevendas.utils.ExtratorDadosUtils;
 /**
  * Exceção que ocorre quando Tipo De Dado da linha não foi encontrado
  * 
- * @see {@link TipoDadoEnum}
- * @see {@link ExtratorDadosUtils#extrairTipoDado(String)}
+ * @see TipoDadoEnum
+ * @see ExtratorDadosUtils#extrairTipoDado(String)
  * @author luislima
  *
  */

@@ -7,7 +7,14 @@ import org.junit.jupiter.api.Test;
 
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
-public class ExtratorDadosEnumTest {
+/**
+ * Casos de testes para classe ExtratorDadosEnum
+ * 
+ * @see {@link ExtratorDadosEnum}
+ * @author luislima
+ *
+ */
+class ExtratorDadosEnumTest {
 	
 	@Test
 	void getRegexPadraoTest_deveRetornar_RegexPadrao_Vendedor() {

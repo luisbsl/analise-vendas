@@ -16,7 +16,10 @@ import br.com.luisbsl.analisevendas.model.Dado;
 /**
  * Interface utilizada como contrato a cumprir pelos Builders
  * 
- * @see ({@link VendedorBuilder ClienteBuilder VendaBuilder ItemBuilder}
+ * @see VendedorBuilder
+ * @see ClienteBuilder
+ * @see VendaBuilder
+ * @see ItemBuilder
  * @author luislima
  *
  */

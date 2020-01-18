@@ -3,9 +3,10 @@ package br.com.luisbsl.analisevendas.enums;
 import br.com.luisbsl.analisevendas.utils.ExtratorDadosUtils;
 
 /**
- * Enum utilizado pelo utilitário ({@link ExtratorDadosUtils#validarPadraoLinha(String, String)}
+ * Enum utilizado pelo utilitário ExtratorDadosUtils
  * Utilizado Para validação do padrão de linha de acordo com determinado Tipo De Dado (Vendedor, Cliente, Venda ou Item)
  * 
+ * @see ExtratorDadosUtils#validarPadraoLinha(String, String)
  * @author luislima
  *
  */

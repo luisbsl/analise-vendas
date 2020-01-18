@@ -18,7 +18,7 @@ import br.com.luisbsl.analisevendas.utils.SistemaOperacionalUtils;
  * Serviço que consome informações processadas e grava no arquivo de saída Ex:
  * nome-arquivo-entrada-1579128937751.txt
  * 
- * @see {@link ProcessadorVendas#toString()}}
+ * @see ProcessadorVendas#toString()
  * @author luislima
  *
  */
@@ -34,7 +34,7 @@ public final class EscritorSaidaInformacaoVendas {
 	/**
 	 * Escreve no arquivo de saída informações processadas de Venda
 	 * 
-	 * @see {@link ProcessadorVendas}}
+	 * @see ProcessadorVendas
 	 * 
 	 * @param nomeArquivoEntrada nome do arquivo utilizado para extração dos dados de Venda
 	 * @param processadorVendas servico de processamento de informações de saída

@@ -17,7 +17,14 @@ import br.com.luisbsl.analisevendas.model.Linha;
 import br.com.luisbsl.analisevendas.model.Vendedor;
 import br.com.luisbsl.analisevendas.test.constants.DadosMocados;
 
-public class ExtratorDadosVendedorTest {
+/**
+ * Casos de testes para classe ExtratorDadosVendedor
+ * 
+ * @see {@link ExtratorDadosVendedor}
+ * @author luislima
+ *
+ */
+class ExtratorDadosVendedorTest {
 	private ExtratorDadosVendedor extrator = (ExtratorDadosVendedor) TipoDadoEnum.VENDEDOR.obterExtratorDado();
 	private Linha linhaVendedorValida = new Linha(DadosMocados.LINHA_TIPO_VENDEDOR, 20);
 	private Linha linhaVendedorInvalida = new Linha("001ç3245678865434çPauloçabc", 10);
