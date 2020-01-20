@@ -42,11 +42,11 @@ java -jar target/analise-vendas-1.0.0-shaded.jar
 
 Acessar arquivo /docs/javadoc/index.html
 
-<div style="text-align:center"><img src="https://file.globalupload.io/tId21xsEL8.png" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmW5kpsdCGk5sSVyHPMaRE62MQMUyqNe6zqrh9S588UxjX" width="1024" /></div>
 
 ### Análise de Código - Sonarqube
 
-<div style="text-align:center"><img src="https://file.globalupload.io/pNuQhzYgCx.png" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmYapJeQYP87GJAaYxCaA6CHmkQm5fkHx1zwscLdRG2YCa" width="1024" /></div>
 
 ### Cobertura de Testes - JaCoCo
 
@@ -56,18 +56,18 @@ mvn clean test
 
 Abrir arquivo /target/site/jacoco/index.html
 
-<div style="text-align:center"><img src="https://file.globalupload.io/jBCEvvYECj.png	" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmRiUpbnZNvotz5pMXanfRYtCdGzLsQ5BRuei6Puocqpkc	" width="1024" /></div>
 
 ## Diagramas de Classes
 
 ### Models
 
-<div style="text-align:center"><img src="https://file.globalupload.io/8PYTmcFkAV.jpg	" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmcTX7N8vFzsehv3QfQMP8R2D4QrsG3GD5oYEb4KDSbsqD" width="1024" /></div>
 
 ### Builders
 
-<div style="text-align:center"><img src="https://file.globalupload.io/ycKWBzbXYq.jpg" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmXDNUbhufQxE92GXAs4iSFcF4fXp6FywKRR4cxxvwfQa5" width="1024" /></div>
 
 ### Services
 
-<div style="text-align:center"><img src="https://file.globalupload.io/TzGznhiwz8.jpg" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmcgSpdEpWDspxDb3X7YQQJ97b57WZ5xG4K7AxXx4iJEcz" width="1024" /></div>
