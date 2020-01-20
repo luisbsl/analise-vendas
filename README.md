@@ -42,7 +42,7 @@ java -jar target/analise-vendas-1.0.0-shaded.jar
 
 Acessar arquivo /docs/javadoc/index.html
 
-<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmZCRSrY7A85RtQVgQTqtDDvCE5JZYxCGgumTb5zwi826x" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmW5kpsdCGk5sSVyHPMaRE62MQMUyqNe6zqrh9S588UxjX" width="1024" /></div>
 
 ### Análise de Código - Sonarqube
 
@@ -56,7 +56,7 @@ mvn clean test
 
 Abrir arquivo /target/site/jacoco/index.html
 
-<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmRiUpbnZNvotz5pMXanfRYtCdGzLsQ5BRuei6Puocqpkc	" width="1024" /></div>
+<div style="text-align:center"><img src="https://ipfs.globalupload.io/QmRiUpbnZNvotz5pMXanfRYtCdGzLsQ5BRuei6Puocqpkc" width="1024" /></div>
 
 ## Diagramas de Classes
 
