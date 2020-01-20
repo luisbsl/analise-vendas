@@ -12,7 +12,7 @@ Sistema para processamento de arquivos de vendas, extração das informações e
 
 ### Artefatos
 
-* Executável: 
+* Executável: /bin/analise-vendas.jar
 * Diagramas: /docs/diagramas
 * Relatórios: /docs/relatórios
 * Javadoc: /docs/javadoc/index.html
